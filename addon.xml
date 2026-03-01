@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.kingkongwizard" name="King Kong Wizard Repository" version="1.0" provider-name="KingKongBuilds">
+    <extension point="xbmc.addon.repository" name="King Kong Wizard Repository">
+        <dir minversion="19.0">
+            <info compressed="false">https://keanudavids.github.io/firestream/zips/addons.xml</info>
+            <checksum>https://keanudavids.github.io/firestream/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://keanudavids.github.io/firestream/zips/</datadir>
+        </dir>
+    </extension>
+    
+    <extension point="xbmc.addon.metadata">
+        <summary>King Kong Wizard Repository</summary>
+        <description>Repository for King Kong Wizard and builds</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <source>https://github.com/KeanuDavids/firestream</source>
+    </extension>
+</addon>
