@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="repository.firestreambuilds">
+        <name>FireStream Builds Repository</name>
+        <version>1.0.0</version>
+    </addon>
+    <addon id="plugin.program.firestreamwizard">
+        <name>FireStream Wizard</name>
+        <version>1.0.0</version>
+        <repository>repository.firestreambuilds</repository>
+    </addon>
+</addons>
